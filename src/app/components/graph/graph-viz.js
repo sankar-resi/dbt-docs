@@ -145,6 +145,7 @@ angular
                     id: 'jump',
                     content: 'Refocus on Node',
                     selector: 'node',
+                    coreAsWell: true,
                     tooltipText: 'Focus on the lineage for this node',
                     onClickFunction: function(event) {
                         var target = event.target || event.cyTarget
